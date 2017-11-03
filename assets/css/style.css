@@ -1,1 +1,49 @@
-reset.css
+.count {
+    height: auto; 
+    width: auto; 
+    max-width: 150px; 
+    max-height: 150px;
+    position: static;
+    bottom: 50%;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    border: 3px dotted rgb(62, 60, 67);
+    text-align: center;
+    padding: 1px;
+}
+
+body {
+    
+}
+
+.answers {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.monkey {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    z-index: -5;
+}
+
+threemin {
+    color: white;
+    background-color: rgb(109, 109, 109);
+}
+
+body {
+    color: grey;
+
+}
+
+.question {
+    background-color: white;
+    border: solid;
+    border-color: grey;
+}
